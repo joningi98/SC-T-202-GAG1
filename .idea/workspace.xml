@@ -22,58 +22,159 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="SC-T-202-GAG1" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="SC-T-202-GAG1" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="SC-T-202-GAG1" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SC-T-202-GAG1" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SC-T-202-GAG1" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pi: schema" type="983ebcf7:PgImplModel$Schema" />
       </path>
     </expand>
     <select />
   </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="f621559a-c267-4972-a070-27d52be34275">
+        <node key="pa">
+          <node key="public" />
+        </node>
+      </node>
+    </checked>
+    <expanded>
+      <node key="f621559a-c267-4972-a070-27d52be34275">
+        <node key="pa" />
+        <node key="postgres" />
+      </node>
+    </expanded>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f621559a-c267-4972-a070-27d52be34275/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1802e0db-b77b-4289-98bc-e5fac2691ff1/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="57" lean-forward="true" selection-start-column="57" selection-end-column="57" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DW_1.sql">
+        <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/Group_Assignment/GA_1/GA_1.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="73" column="29" lean-forward="true" selection-end-line="90" />
+            <state relative-caret-position="310">
+              <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/Group_Assignment/GA_1/QUERIES.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/1802e0db-b77b-4289-98bc-e5fac2691ff1.SCHEMA:postgres.pa">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>1802e0db-b77b-4289-98bc-e5fac2691ff1.SCHEMA:postgres.pa</OriginalElement>
+              <nodes>
+                <node x="163.0" y="124.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.people</node>
+                <node x="165.0" y="292.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.results</node>
+                <node x="363.0" y="135.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.sports</node>
+                <node x="164.5" y="0.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.gender</node>
+                <node x="0.0" y="135.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.competitions</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.people" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.gender">
+                  <point x="0.0" y="-59.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.results" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.competitions">
+                  <point x="-58.66666666666666" y="-59.0" />
+                  <point x="194.33333333333334" y="267.0" />
+                  <point x="71.5" y="267.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.results" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.people">
+                  <point x="0.0" y="-59.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.results" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.sports">
+                  <point x="58.666666666666686" y="-59.0" />
+                  <point x="311.6666666666667" y="267.0" />
+                  <point x="453.0" y="267.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="139.5" y="232.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>select * from results;</find>
+      <find>199</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DW_1.sql" />
+        <option value="$PROJECT_DIR$/Dæmatímaverkefni/DW_3/DW_3.sql" />
+        <option value="$PROJECT_DIR$/Dæmatímaverkefni/Group_Assignment/GA_1/QUERIES.txt" />
+        <option value="$PROJECT_DIR$/Dæmatímaverkefni/Group_Assignment/GA_1/RESULTS.txt" />
+        <option value="$PROJECT_DIR$/Dæmatímaverkefni/Group_Assignment/GA_1/GA_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1802e0db-b77b-4289-98bc-e5fac2691ff1/console.sql" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1440" />
-    <option name="height" value="774" />
+    <option name="x" value="645" />
+    <option name="y" value="-19" />
+    <option name="width" value="975" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,21 +182,38 @@
               <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
               <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
             </path>
+            <path>
+              <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+              <item name="Dæmatímaverkefni" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+              <item name="Dæmatímaverkefni" type="462c0819:PsiDirectoryNode" />
+              <item name="Group_Assignment" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DBE.Init.BalloonShown" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="GoToClass.toSaveIncludeLibraries" value="true" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="database.main2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\Group_Assignment\GA_1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\DWS" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\DW_1" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni" />
     </key>
   </component>
@@ -115,18 +233,18 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1295302" />
-      <window_info anchor="bottom" id="Database Console" weight="0.29461756" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14630872" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info anchor="right" id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Database" order="1" visible="true" weight="0.17516778" />
+      <window_info anchor="bottom" id="Database Console" order="5" visible="true" weight="0.32577905" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Structure" order="0" sideWeight="0.50141644" side_tool="true" weight="0.26174498" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Database" order="1" sideWeight="0.49858356" visible="true" weight="0.26040268" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -137,15 +255,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DW_1.sql" />
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_1/DW_1.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_3/DROP.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f621559a-c267-4972-a070-27d52be34275/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_3/DW_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://DATABASE/f621559a-c267-4972-a070-27d52be34275">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>DATABASE</ID>
           <OriginalElement>f621559a-c267-4972-a070-27d52be34275</OriginalElement>
-          <nodes />
+          <nodes>
+            <node x="" y="">f621559a-c267-4972-a070-27d52be34275.TABLE:postgres.public.people</node>
+            <node x="" y="">f621559a-c267-4972-a070-27d52be34275.TABLE:postgres.public.tblworker</node>
+            <node x="" y="">f621559a-c267-4972-a070-27d52be34275.TABLE:postgres.public.tblannualpay</node>
+            <node x="" y="">f621559a-c267-4972-a070-27d52be34275.TABLE:postgres.public.sports</node>
+            <node x="" y="">f621559a-c267-4972-a070-27d52be34275.TABLE:postgres.public.competitions</node>
+            <node x="" y="">f621559a-c267-4972-a070-27d52be34275.TABLE:postgres.public.gender</node>
+            <node x="" y="">f621559a-c267-4972-a070-27d52be34275.TABLE:postgres.public.tblcompany</node>
+            <node x="" y="">f621559a-c267-4972-a070-27d52be34275.TABLE:postgres.public.tbltaxdistrict</node>
+            <node x="" y="">f621559a-c267-4972-a070-27d52be34275.TABLE:postgres.public.results</node>
+          </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="137.0" y="210.5" />
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="1067.0" y="645.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_3/FILL.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_3/CREATE.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/90dd0baa-b24f-4336-a771-1e8781567edd/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/Group_Assignment/GA_1/FILL.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="63" lean-forward="true" selection-end-line="2308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/Group_Assignment/GA_1/CREATE.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="24" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/1802e0db-b77b-4289-98bc-e5fac2691ff1.SCHEMA:postgres.pa">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>1802e0db-b77b-4289-98bc-e5fac2691ff1.SCHEMA:postgres.pa</OriginalElement>
+          <nodes>
+            <node x="163.0" y="124.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.people</node>
+            <node x="165.0" y="292.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.results</node>
+            <node x="363.0" y="135.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.sports</node>
+            <node x="164.5" y="0.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.gender</node>
+            <node x="0.0" y="135.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.competitions</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.people" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.gender">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.results" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.competitions">
+              <point x="-58.66666666666666" y="-59.0" />
+              <point x="194.33333333333334" y="267.0" />
+              <point x="71.5" y="267.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.results" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.people">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.results" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:postgres.pi.sports">
+              <point x="58.666666666666686" y="-59.0" />
+              <point x="311.6666666666667" y="267.0" />
+              <point x="453.0" y="267.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="139.5" y="232.5" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
@@ -154,15 +367,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DW_1.sql">
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/Group_Assignment/GA_1/QUERIES.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="73" column="29" lean-forward="true" selection-end-line="90" />
+        <state relative-caret-position="374">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f621559a-c267-4972-a070-27d52be34275/console.sql">
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/Group_Assignment/GA_1/RESULTS.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/Group_Assignment/GA_1/GA_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1802e0db-b77b-4289-98bc-e5fac2691ff1/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" lean-forward="true" selection-start-column="57" selection-end-column="57" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
