@@ -29,7 +29,7 @@ select * from competitions;
 
 select distinct name
 from people, competitions
-join results r on competitions.id != r.competitionid
+join results r on competitions.id != r.competitionid;
 
 
 select P.id as id, P.name as name
