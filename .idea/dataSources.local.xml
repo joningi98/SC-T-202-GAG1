@@ -8,7 +8,16 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
-      <introspection-schemas>@:@|postgres:pi</introspection-schemas>
+      <introspection-schemas>@:@|dw_5:dw_5_schema</introspection-schemas>
+    </data-source>
+    <data-source name="Project_2" uuid="790892cb-b08f-467f-80fd-f181aa8c851f">
+      <database-info product="PostgreSQL" version="11.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" dbms="POSTGRES" exact-version="11.1" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>@:@|postgres:project_2</introspection-schemas>
     </data-source>
   </component>
 </project>

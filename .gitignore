@@ -3,3 +3,4 @@
 *.meta
 .idea/dictionaries/Jón_Ingi.xml
 .idea/workspace.xml
+.idea/dataSources.local.xml
