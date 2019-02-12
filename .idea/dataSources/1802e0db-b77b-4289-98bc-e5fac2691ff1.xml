@@ -13,6 +13,7 @@
       <ObjectId>32866</ObjectId>
       <StateNumber>18408</StateNumber>
       <Owner>postgres</Owner>
+      <IntrospectionStateNumber>19760</IntrospectionStateNumber>
       <Visible>1</Visible>
       <Relations>sequence|table|32922|32924|1
 sequence|table|32930|32932|1

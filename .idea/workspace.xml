@@ -22,33 +22,33 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="SC-T-202-GAG1" type="feb32156:DbDataSourceImpl" />
+        <item name="Project_2" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="SC-T-202-GAG1" type="feb32156:DbDataSourceImpl" />
+        <item name="Project_2" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="SC-T-202-GAG1" type="feb32156:DbDataSourceImpl" />
+        <item name="Project_2" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dw_5: database" type="162271b6:PgImplModel$Database" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="SC-T-202-GAG1" type="feb32156:DbDataSourceImpl" />
+        <item name="Project_2" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dw_5: database" type="162271b6:PgImplModel$Database" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="SC-T-202-GAG1" type="feb32156:DbDataSourceImpl" />
+        <item name="Project_2" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dw_5: database" type="162271b6:PgImplModel$Database" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dw_5_schema: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="project_2: schema" type="983ebcf7:PgImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -72,14 +72,14 @@
     <favorites_list name="SC-T-202-GAG1" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7319475">
+    <splitter split-orientation="horizontal" split-proportion="0.63533837">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_5/DW_5.sql">
+            <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="412">
-                  <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+                <state relative-caret-position="555">
+                  <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
                 </state>
               </provider>
             </entry>
@@ -89,38 +89,45 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="uml://DATABASE/1802e0db-b77b-4289-98bc-e5fac2691ff1.SCHEMA:dw_5.dw_5_schema">
+            <entry file="uml://DATABASE/790892cb-b08f-467f-80fd-f181aa8c851f.SCHEMA:postgres.project_2">
               <provider selected="true" editor-type-id="UmlEditorProvider">
                 <state>
                   <ID>DATABASE</ID>
-                  <OriginalElement>1802e0db-b77b-4289-98bc-e5fac2691ff1.SCHEMA:dw_5.dw_5_schema</OriginalElement>
+                  <OriginalElement>790892cb-b08f-467f-80fd-f181aa8c851f.SCHEMA:postgres.project_2</OriginalElement>
                   <nodes>
-                    <node x="58.0" y="0.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.people</node>
-                    <node x="0.0" y="358.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accountrecords</node>
-                    <node x="0.0" y="168.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accounts</node>
-                    <node x="161.0" y="168.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.bills</node>
+                    <node x="185.0" y="292.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results</node>
+                    <node x="201.0" y="135.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.competitions</node>
+                    <node x="0.0" y="135.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.sports</node>
+                    <node x="366.5" y="0.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.gender</node>
+                    <node x="365.0" y="124.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people</node>
                   </nodes>
                   <notes />
                   <edges>
-                    <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.bills" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.people">
-                      <point x="0.0" y="-70.0" />
-                      <point x="232.5" y="143.0" />
-                      <point x="198.25" y="143.0" />
-                      <point x="46.75" y="59.0" />
+                    <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people">
+                      <point x="58.666666666666686" y="-59.0" />
+                      <point x="331.6666666666667" y="267.0" />
+                      <point x="455.0" y="267.0" />
+                      <point x="0.0" y="59.0" />
                     </edge>
-                    <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accounts" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.people">
-                      <point x="0.0" y="-70.0" />
-                      <point x="70.5" y="143.0" />
-                      <point x="104.75" y="143.0" />
-                      <point x="-46.75" y="59.0" />
+                    <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.gender">
+                      <point x="0.0" y="-59.0" />
+                      <point x="0.0" y="37.0" />
                     </edge>
-                    <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accountrecords" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accounts">
-                      <point x="0.0" y="-81.0" />
-                      <point x="0.0" y="70.0" />
+                    <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.competitions">
+                      <point x="0.0" y="-59.0" />
+                      <point x="0.0" y="48.0" />
+                    </edge>
+                    <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.sports">
+                      <point x="-58.66666666666666" y="-59.0" />
+                      <point x="214.33333333333334" y="267.0" />
+                      <point x="90.5" y="267.0" />
+                      <point x="0.0" y="48.0" />
                     </edge>
                   </edges>
-                  <settings layout="Hierarchic Group" zoom="1.0" x="120.0" y="261.5" />
-                  <SelectedNodes />
+                  <settings layout="Hierarchic Group" zoom="1.0" x="277.0" y="205.0" />
+                  <SelectedNodes>
+                    <node>790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people</node>
+                  </SelectedNodes>
                   <Categories>
                     <Category>Key columns</Category>
                     <Category>Columns</Category>
@@ -154,22 +161,23 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1802e0db-b77b-4289-98bc-e5fac2691ff1/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/790892cb-b08f-467f-80fd-f181aa8c851f/console.sql" />
         <option value="$PROJECT_DIR$/Group_Assignment/GA_2/GA_1.sql" />
-        <option value="$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql" />
         <option value="$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_5/DW_5.sql" />
+        <option value="$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="72" />
-    <option name="y" value="-18" />
-    <option name="width" value="975" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,19 +188,18 @@
             <path>
               <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
               <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
-              <item name="Dæmatímaverkefni" type="462c0819:PsiDirectoryNode" />
+              <item name="Group_Assignment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
               <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
-              <item name="Dæmatímaverkefni" type="462c0819:PsiDirectoryNode" />
-              <item name="DWS" type="462c0819:PsiDirectoryNode" />
+              <item name="Group_Assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="GA_2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,18 +239,18 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5021008" side_tool="true" weight="0.23691276" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49789914" weight="0.13238512" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49789914" weight="0.13326226" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="5" sideWeight="0.4989059" visible="true" weight="0.32719395" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="5" sideWeight="0.4989059" visible="true" weight="0.2892741" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010941" side_tool="true" weight="0.33369803" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="Structure" order="0" sideWeight="0.50141644" side_tool="true" weight="0.26174498" />
-      <window_info anchor="right" content_ui="combo" id="Database" order="1" sideWeight="0.49858356" visible="true" weight="0.1337953" />
+      <window_info anchor="right" id="Structure" order="0" sideWeight="0.5030488" side_tool="true" weight="0.14925373" />
+      <window_info anchor="right" content_ui="combo" id="Database" order="1" sideWeight="0.49695122" visible="true" weight="0.14925373" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -426,10 +433,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql">
+    <entry file="dbSrc:///17d0bcff/1802e0db-b77b-4289-98bc-e5fac2691ff1/database/dw_5/schema/dw_5_schema/routine/make_new_account@(date,integer,integer,varchar,varchar,double precision).sql" />
+    <entry file="uml://DATABASE/1802e0db-b77b-4289-98bc-e5fac2691ff1.SCHEMA:dw_5.dw_5_schema">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>1802e0db-b77b-4289-98bc-e5fac2691ff1.SCHEMA:dw_5.dw_5_schema</OriginalElement>
+          <nodes>
+            <node x="" y="">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.people</node>
+            <node x="" y="">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accountrecords</node>
+            <node x="" y="">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.bills</node>
+            <node x="" y="">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accounts</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8888888888888888" x="123.0" y="481.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_5/DW_5.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="669">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
@@ -440,45 +471,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbSrc:///17d0bcff/1802e0db-b77b-4289-98bc-e5fac2691ff1/database/dw_5/schema/dw_5_schema/routine/make_new_account@(date,integer,integer,varchar,varchar,double precision).sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/1802e0db-b77b-4289-98bc-e5fac2691ff1.SCHEMA:dw_5.dw_5_schema">
+    <entry file="uml://DATABASE/790892cb-b08f-467f-80fd-f181aa8c851f.SCHEMA:postgres.project_2">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>DATABASE</ID>
-          <OriginalElement>1802e0db-b77b-4289-98bc-e5fac2691ff1.SCHEMA:dw_5.dw_5_schema</OriginalElement>
+          <OriginalElement>790892cb-b08f-467f-80fd-f181aa8c851f.SCHEMA:postgres.project_2</OriginalElement>
           <nodes>
-            <node x="58.0" y="0.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.people</node>
-            <node x="0.0" y="358.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accountrecords</node>
-            <node x="0.0" y="168.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accounts</node>
-            <node x="161.0" y="168.0">1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.bills</node>
+            <node x="185.0" y="292.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results</node>
+            <node x="201.0" y="135.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.competitions</node>
+            <node x="0.0" y="135.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.sports</node>
+            <node x="366.5" y="0.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.gender</node>
+            <node x="365.0" y="124.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.bills" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.people">
-              <point x="0.0" y="-70.0" />
-              <point x="232.5" y="143.0" />
-              <point x="198.25" y="143.0" />
-              <point x="46.75" y="59.0" />
+            <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people">
+              <point x="58.666666666666686" y="-59.0" />
+              <point x="331.6666666666667" y="267.0" />
+              <point x="455.0" y="267.0" />
+              <point x="0.0" y="59.0" />
             </edge>
-            <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accounts" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.people">
-              <point x="0.0" y="-70.0" />
-              <point x="70.5" y="143.0" />
-              <point x="104.75" y="143.0" />
-              <point x="-46.75" y="59.0" />
+            <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.gender">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="37.0" />
             </edge>
-            <edge source="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accountrecords" target="1802e0db-b77b-4289-98bc-e5fac2691ff1.TABLE:dw_5.dw_5_schema.accounts">
-              <point x="0.0" y="-81.0" />
-              <point x="0.0" y="70.0" />
+            <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.competitions">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.sports">
+              <point x="-58.66666666666666" y="-59.0" />
+              <point x="214.33333333333334" y="267.0" />
+              <point x="90.5" y="267.0" />
+              <point x="0.0" y="48.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="120.0" y="261.5" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="1.0" x="277.0" y="205.0" />
+          <SelectedNodes>
+            <node>790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people</node>
+          </SelectedNodes>
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
@@ -486,10 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_5/DW_5.sql">
+    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="555">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
