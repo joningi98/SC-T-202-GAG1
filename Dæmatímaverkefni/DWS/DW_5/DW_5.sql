@@ -1,21 +1,3 @@
-select A.rdate, A.rbalance
-from accounts A
-where A.aid = X;
-
-
-select R.rdate, R.rbalance
-from accountrecords R
-where R.aid = X and R.aid =(
-  SELECT max(r1.rid)
-  from accountrecords R1
-  where R1.aid = R.aid
-  );
-
-select * from people;
-select * from accountrecords;
-select * from accounts;
-
-
 -- Dæmi 1 --
 create view People_Accounts
 as
@@ -55,11 +37,27 @@ WHERE a.adate = '2018-02-11';
 
 
 -- Dæmi 3 --
-CREATE TRIGGER Check_person
-  BEFORE INSERT ON people
-  WHEN (pgender != 'M' or pgender != 'F' or pheight <= 0)
+CREATE OR REPLACE FUNCTION Check_people_insert()
+RETURNS TRIGGER
+  AS $$
+  BEGIN
+    IF people.pgender = 'M' or people.pgender = 'F' or people.pheight > 0 THEN
+      INSERT INTO people(pname, pgender, pheight)
+      VALUES(pname, pgender, pheight);
+    END IF;
+
+    RETURN;
+END $$
+LANGUAGE plpgsql;
 
 
-insert into people(pid, pname, pgender, pheight) VALUES (222, 'lol','ð',-15);
+CREATE TRIGGER peron_insert_check BEFORE INSERT
+  ON people
+FOR EACH ROW
+EXECUTE PROCEDURE Check_people_insert();
 
-select * from people p where p.pgender = 'ð'
+
+
+
+
+
