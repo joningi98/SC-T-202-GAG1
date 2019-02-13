@@ -24,7 +24,7 @@
       <Comment>default administrative connection database</Comment>
       <StateNumber>566</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>19762</IntrospectionStateNumber>
+      <IntrospectionStateNumber>19863</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </database>
@@ -123,7 +123,7 @@
       <ObjectId>32818</ObjectId>
       <StateNumber>7770</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>19764</IntrospectionStateNumber>
+      <IntrospectionStateNumber>19864</IntrospectionStateNumber>
       <Visible>1</Visible>
     </schema>
     <access-method id="23" parent="5" name="btree">
