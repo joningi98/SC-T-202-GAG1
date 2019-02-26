@@ -22,25 +22,51 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Project_2" type="feb32156:DbDataSourceImpl" />
+        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Project_2" type="feb32156:DbDataSourceImpl" />
+        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Project_2" type="feb32156:DbDataSourceImpl" />
+        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="ga_3: database" type="162271b6:PgImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Project_2" type="feb32156:DbDataSourceImpl" />
+        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="ga_3: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ga_3: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ga_3: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ga_3: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ga_3: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ga_3: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ga_3: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="views" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -64,14 +90,23 @@
     <favorites_list name="SC-T-202-GAG1" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.61460555">
+    <splitter split-orientation="horizontal" split-proportion="0.85667396">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb/console.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+                <state relative-caret-position="771">
+                  <caret line="1073" column="92" selection-start-line="1073" selection-start-column="92" selection-end-line="1073" selection-end-column="92" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="447">
+                  <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
                 </state>
               </provider>
             </entry>
@@ -81,44 +116,42 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="uml://DATABASE/790892cb-b08f-467f-80fd-f181aa8c851f.SCHEMA:postgres.project_2">
+            <entry file="uml://DATABASE/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.SCHEMA:ga_3.ga_3">
               <provider selected="true" editor-type-id="UmlEditorProvider">
                 <state>
                   <ID>DATABASE</ID>
-                  <OriginalElement>790892cb-b08f-467f-80fd-f181aa8c851f.SCHEMA:postgres.project_2</OriginalElement>
+                  <OriginalElement>fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.SCHEMA:ga_3.ga_3</OriginalElement>
                   <nodes>
-                    <node x="166.0" y="292.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results</node>
-                    <node x="0.0" y="135.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.competitions</node>
-                    <node x="364.0" y="135.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.sports</node>
-                    <node x="165.5" y="0.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.gender</node>
-                    <node x="164.0" y="124.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people</node>
+                    <node x="349.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.VIEW:ga_3.ga_3.allaccountrecords</node>
+                    <node x="0.0" y="358.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accountrecords</node>
+                    <node x="161.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills</node>
+                    <node x="0.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts</node>
+                    <node x="535.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.VIEW:ga_3.ga_3.financialstatus</node>
+                    <node x="0.0" y="565.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.VIEW:ga_3.ga_3.debtorstatus</node>
+                    <node x="58.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people</node>
                   </nodes>
                   <notes />
                   <edges>
-                    <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people">
-                      <point x="0.0" y="-59.0" />
-                      <point x="0.0" y="59.0" />
+                    <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people">
+                      <point x="0.0" y="-70.0" />
+                      <point x="232.5" y="143.0" />
+                      <point x="198.25" y="143.0" />
+                      <point x="46.75" y="59.0" />
                     </edge>
-                    <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.gender">
-                      <point x="0.0" y="-59.0" />
-                      <point x="0.0" y="37.0" />
+                    <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people">
+                      <point x="0.0" y="-70.0" />
+                      <point x="70.5" y="143.0" />
+                      <point x="104.75" y="143.0" />
+                      <point x="-46.75" y="59.0" />
                     </edge>
-                    <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.competitions">
-                      <point x="-58.66666666666666" y="-59.0" />
-                      <point x="195.33333333333334" y="267.0" />
-                      <point x="72.0" y="267.0" />
-                      <point x="0.0" y="48.0" />
-                    </edge>
-                    <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.sports">
-                      <point x="58.666666666666686" y="-59.0" />
-                      <point x="312.6666666666667" y="267.0" />
-                      <point x="454.5" y="267.0" />
-                      <point x="0.0" y="48.0" />
+                    <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accountrecords" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts">
+                      <point x="0.0" y="-81.0" />
+                      <point x="0.0" y="70.0" />
                     </edge>
                   </edges>
-                  <settings layout="Hierarchic Group" zoom="0.9837209302325581" x="234.4822695035461" y="430.76636329508216" />
+                  <settings layout="Hierarchic Group" zoom="1.037037037037037" x="-57.83928571428571" y="263.875" />
                   <SelectedNodes>
-                    <node>790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people</node>
+                    <node>fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills</node>
                   </SelectedNodes>
                   <Categories>
                     <Category>Key columns</Category>
@@ -158,12 +191,13 @@
         <option value="$PROJECT_DIR$/Group_Assignment/GA_2/GA_1.sql" />
         <option value="$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_5/DW_5.sql" />
         <option value="$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb/console.sql" />
+        <option value="$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="642" />
-    <option name="y" value="-13" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -171,13 +205,42 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+            </path>
+            <path>
+              <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+              <item name="Dæmatímaverkefni" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+              <item name="Group_Assignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+              <item name="Group_Assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="GA_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DBE.Init.BalloonShown" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="GoToClass.toSaveIncludeLibraries" value="true" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="grid.search.filter.rows" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="database.main2" />
@@ -206,23 +269,23 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5021008" side_tool="true" weight="0.23691276" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49789914" weight="0.13326226" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32936078" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49789914" weight="0.27558637" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info anchor="bottom" id="Database Console" order="5" sideWeight="0.4989059" weight="0.4723727" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="5" sideWeight="0.4989059" visible="true" weight="0.35448578" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010941" side_tool="true" weight="0.33369803" />
       <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32936078" />
       <window_info anchor="right" id="Structure" order="0" sideWeight="0.5030488" side_tool="true" weight="0.14925373" />
-      <window_info anchor="right" content_ui="combo" id="Database" order="1" sideWeight="0.49695122" weight="0.49200428" />
+      <window_info anchor="right" content_ui="combo" id="Database" order="1" sideWeight="0.49695122" weight="0.39059082" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -429,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_5/DW_5.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/790892cb-b08f-467f-80fd-f181aa8c851f/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
@@ -449,16 +505,18 @@
           <ID>DATABASE</ID>
           <OriginalElement>790892cb-b08f-467f-80fd-f181aa8c851f.SCHEMA:postgres.project_2</OriginalElement>
           <nodes>
-            <node x="166.0" y="292.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results</node>
-            <node x="0.0" y="135.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.competitions</node>
-            <node x="364.0" y="135.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.sports</node>
-            <node x="165.5" y="0.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.gender</node>
-            <node x="164.0" y="124.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people</node>
+            <node x="202.5" y="292.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results</node>
+            <node x="401.0" y="135.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.competitions</node>
+            <node x="200.0" y="135.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.sports</node>
+            <node x="1.5" y="0.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.gender</node>
+            <node x="0.0" y="124.0">790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people</node>
           </nodes>
           <notes />
           <edges>
             <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people">
-              <point x="0.0" y="-59.0" />
+              <point x="-58.66666666666666" y="-59.0" />
+              <point x="231.83333333333334" y="267.0" />
+              <point x="90.0" y="267.0" />
               <point x="0.0" y="59.0" />
             </edge>
             <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.gender">
@@ -466,21 +524,124 @@
               <point x="0.0" y="37.0" />
             </edge>
             <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.competitions">
-              <point x="-58.66666666666666" y="-59.0" />
-              <point x="195.33333333333334" y="267.0" />
-              <point x="72.0" y="267.0" />
+              <point x="58.666666666666686" y="-59.0" />
+              <point x="349.1666666666667" y="267.0" />
+              <point x="473.0" y="267.0" />
               <point x="0.0" y="48.0" />
             </edge>
             <edge source="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results" target="790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.sports">
-              <point x="58.666666666666686" y="-59.0" />
-              <point x="312.6666666666667" y="267.0" />
-              <point x="454.5" y="267.0" />
+              <point x="0.0" y="-59.0" />
               <point x="0.0" y="48.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.9837209302325581" x="234.4822695035461" y="430.76636329508216" />
+          <settings layout="Hierarchic Group" zoom="0.8495575221238938" x="395.0" y="436.0" />
           <SelectedNodes>
-            <node>790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.people</node>
+            <node>790892cb-b08f-467f-80fd-f181aa8c851f.TABLE:postgres.project_2.results</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_5/DW_5.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.DATABASE:ga_3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.DATABASE:ga_3</OriginalElement>
+          <nodes>
+            <node x="0.0" y="358.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accountrecords</node>
+            <node x="58.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people</node>
+            <node x="161.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills</node>
+            <node x="0.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people">
+              <point x="0.0" y="-70.0" />
+              <point x="232.5" y="143.0" />
+              <point x="198.25" y="143.0" />
+              <point x="46.75" y="59.0" />
+            </edge>
+            <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people">
+              <point x="0.0" y="-70.0" />
+              <point x="70.5" y="143.0" />
+              <point x="104.75" y="143.0" />
+              <point x="-46.75" y="59.0" />
+            </edge>
+            <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accountrecords" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts">
+              <point x="0.0" y="-81.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="1073" column="92" selection-start-line="1073" selection-start-column="92" selection-end-line="1073" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.SCHEMA:ga_3.ga_3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.SCHEMA:ga_3.ga_3</OriginalElement>
+          <nodes>
+            <node x="349.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.VIEW:ga_3.ga_3.allaccountrecords</node>
+            <node x="0.0" y="358.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accountrecords</node>
+            <node x="161.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills</node>
+            <node x="0.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts</node>
+            <node x="535.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.VIEW:ga_3.ga_3.financialstatus</node>
+            <node x="0.0" y="565.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.VIEW:ga_3.ga_3.debtorstatus</node>
+            <node x="58.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people">
+              <point x="0.0" y="-70.0" />
+              <point x="232.5" y="143.0" />
+              <point x="198.25" y="143.0" />
+              <point x="46.75" y="59.0" />
+            </edge>
+            <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people">
+              <point x="0.0" y="-70.0" />
+              <point x="70.5" y="143.0" />
+              <point x="104.75" y="143.0" />
+              <point x="-46.75" y="59.0" />
+            </edge>
+            <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accountrecords" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts">
+              <point x="0.0" y="-81.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.037037037037037" x="-57.83928571428571" y="263.875" />
+          <SelectedNodes>
+            <node>fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills</node>
           </SelectedNodes>
           <Categories>
             <Category>Key columns</Category>
@@ -489,10 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql">
+    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="447">
+          <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
         </state>
       </provider>
     </entry>
