@@ -50,24 +50,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="ga_3: schema" type="983ebcf7:PgImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ga_3: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ga_3: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ga_3: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ga_3: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="views" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
   </component>
@@ -90,23 +72,23 @@
     <favorites_list name="SC-T-202-GAG1" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.85667396">
+    <splitter split-orientation="horizontal" split-proportion="0.7581158">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb/console.sql">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="771">
-                  <caret line="1073" column="92" selection-start-line="1073" selection-start-column="92" selection-end-line="1073" selection-end-column="92" />
+                <state relative-caret-position="320">
+                  <caret line="274" column="41" selection-start-line="274" selection-start-column="41" selection-end-line="274" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb/console.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="447">
-                  <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+                <state relative-caret-position="17">
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
@@ -126,8 +108,6 @@
                     <node x="0.0" y="358.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accountrecords</node>
                     <node x="161.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills</node>
                     <node x="0.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts</node>
-                    <node x="535.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.VIEW:ga_3.ga_3.financialstatus</node>
-                    <node x="0.0" y="565.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.VIEW:ga_3.ga_3.debtorstatus</node>
                     <node x="58.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people</node>
                   </nodes>
                   <notes />
@@ -149,10 +129,8 @@
                       <point x="0.0" y="70.0" />
                     </edge>
                   </edges>
-                  <settings layout="Hierarchic Group" zoom="1.037037037037037" x="-57.83928571428571" y="263.875" />
-                  <SelectedNodes>
-                    <node>fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills</node>
-                  </SelectedNodes>
+                  <settings layout="Hierarchic Group" zoom="1.0" x="141.5" y="260.0" />
+                  <SelectedNodes />
                   <Categories>
                     <Category>Key columns</Category>
                     <Category>Columns</Category>
@@ -191,13 +169,15 @@
         <option value="$PROJECT_DIR$/Group_Assignment/GA_2/GA_1.sql" />
         <option value="$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_5/DW_5.sql" />
         <option value="$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql" />
+        <option value="$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_6/DW_6.sql" />
+        <option value="$PROJECT_DIR$/Group_Assignment/GA_2/1111.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb/console.sql" />
         <option value="$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -206,6 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,7 +202,19 @@
             <path>
               <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
               <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+              <item name="Dæmatímaverkefni" type="462c0819:PsiDirectoryNode" />
+              <item name="DWS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
               <item name="Group_Assignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+              <item name="Group_Assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="GA_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
@@ -233,7 +226,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,23 +261,23 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5021008" side_tool="true" weight="0.23691276" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49789914" weight="0.27558637" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49789914" weight="0.24835886" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="5" sideWeight="0.4989059" visible="true" weight="0.35448578" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="5" sideWeight="0.4989059" visible="true" weight="0.38136512" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010941" side_tool="true" weight="0.33369803" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32936078" />
       <window_info anchor="right" id="Structure" order="0" sideWeight="0.5030488" side_tool="true" weight="0.14925373" />
-      <window_info anchor="right" content_ui="combo" id="Database" order="1" sideWeight="0.49695122" weight="0.39059082" />
+      <window_info anchor="right" content_ui="combo" id="Database" order="1" sideWeight="0.49695122" visible="true" weight="0.16257995" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -553,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.DATABASE:ga_3">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -596,13 +581,28 @@
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb/console.sql">
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_6/DW_6.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="1073" column="92" selection-start-line="1073" selection-start-column="92" selection-end-line="1073" selection-end-column="92" />
+        <state relative-caret-position="328">
+          <caret line="41" selection-start-line="41" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/1111.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="96" column="16" lean-forward="true" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -616,8 +616,6 @@
             <node x="0.0" y="358.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accountrecords</node>
             <node x="161.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills</node>
             <node x="0.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts</node>
-            <node x="535.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.VIEW:ga_3.ga_3.financialstatus</node>
-            <node x="0.0" y="565.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.VIEW:ga_3.ga_3.debtorstatus</node>
             <node x="58.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people</node>
           </nodes>
           <notes />
@@ -639,10 +637,8 @@
               <point x="0.0" y="70.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.037037037037037" x="-57.83928571428571" y="263.875" />
-          <SelectedNodes>
-            <node>fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills</node>
-          </SelectedNodes>
+          <settings layout="Hierarchic Group" zoom="1.0" x="141.5" y="260.0" />
+          <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
@@ -650,10 +646,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        <state relative-caret-position="320">
+          <caret line="274" column="41" selection-start-line="274" selection-start-column="41" selection-end-line="274" selection-end-column="41" />
         </state>
       </provider>
     </entry>
