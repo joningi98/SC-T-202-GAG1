@@ -6,8 +6,6 @@ AS
   FROM accounts a
   LEFT OUTER JOIN accountrecords a2 on a.aid = a2.aid;
 
-SELECT * FROM AllAccountRecords;
-
 --- Dæmi 2 ---
 
 CREATE OR REPLACE VIEW DebtorStatus
@@ -17,9 +15,6 @@ AS
   INNER JOIN accounts a ON p.pid = a.pid
   GROUP BY p.pid, p.pname
   HAVING SUM(a.abalance) < 0;
-
-
-SELECT * FROM DebtorStatus;
 
 
 --- Dæmi 3 ---
@@ -34,10 +29,6 @@ AS
   WHERE b.bispaid = 'f'
   GROUP BY p.pid
   HAVING COUNT(a.pid) > 1;
-
-
-SELECT * FROM FinancialStatus;
-
 
 
 --- Dæmi 4 ---
@@ -149,26 +140,6 @@ $$
 LANGUAGE plpgsql;
 
 
-SELECT InsertPerson('Benni15', 'J',1.60);
-SELECT InsertPerson('Jonni', 'K',1.60);
-
-SELECT * FROM people WHERE pname = 'Benni15';
-
-DELETE FROm accounts where aid = 3;
-DELETE FROM people WHERE pid = 4 ;
-
-SELECT * FROM accounts;
-
-SELECT * FROM people;
-
-SELECT * FROM people
-INNER JOIN accounts a on people.pid = a.pid
-WHERE pname = 'Benni15';
-SAVEPOINT my_point1;
-
-ROLLBACK TO my_point1;
-
-
 --- Dæmi 8 ---
 
 
@@ -207,11 +178,6 @@ $$
 LANGUAGE plpgsql;
 
 
-SELECT PayBill(6);
-
-INSERT INTO bills (pid, bduedate, bamount, bispaid) VALUES (7, current_date, 250, 'F');
-
-
 --- Dæmi 9 ---
 
 
@@ -235,18 +201,7 @@ $$
 LANGUAGE plpgsql;
 
 
-SELECT Transfer(7,6,250);
-
-
-
 --- Dæmi 10 ---
-
-
-/*
-Create a function LoanMoney, which takes three parameters iAID, iAmount and
-iDueDate. The procedure should give the account a loan of iAmount and also
-create a bill with the same lAmount and due date on iDueDate. No return value.
-*/
 
 
 CREATE OR REPLACE FUNCTION LoanMoney (iAID INT, iAmount INT, iDueDate DATE)
@@ -265,20 +220,3 @@ $$
   end;
 $$
 LANGUAGE plpgsql;
-
-SELECT LoanMoney(12, -1000, '2019-03-01');
-
-
-SELECT p.pid
-FROM people p
-INNER JOIN accounts a ON a.pid = p.pid;
-
-
-------------- TEST ---------------
-
-UPDATE bills SET bispaid = 'T' WHERE pid = 13;
-
-SELECT * FROM accountrecords;
-SELECT * FROM accounts;
-SELECT * FROM bills;
-SELECT * FROM people;

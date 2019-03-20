@@ -1,0 +1,640 @@
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT A
+      FROM R2
+      GROUP BY A
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT B
+      FROM R2
+      GROUP BY B
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT C
+      FROM R2
+      GROUP BY C
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT D
+      FROM R2
+      GROUP BY D
+      HAVING (COUNT(DISTINCT E) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT A) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT B) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT D) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT C) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT A) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT B) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT C) 
+                   <> COUNT(*))
+) X;
+
+SELECT IF (COUNT(*) = 0, 'MAYBE MVD', 'NO MVD') AS MVD 
+FROM (SELECT E
+      FROM R2
+      GROUP BY E
+      HAVING (COUNT(DISTINCT D) * COUNT(DISTINCT E) 
+                   <> COUNT(*))
+) X;

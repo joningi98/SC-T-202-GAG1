@@ -72,76 +72,7 @@
     <favorites_list name="SC-T-202-GAG1" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7581158">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="274" column="41" selection-start-line="274" selection-start-column="41" selection-end-line="274" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb/console.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="uml://DATABASE/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.SCHEMA:ga_3.ga_3">
-              <provider selected="true" editor-type-id="UmlEditorProvider">
-                <state>
-                  <ID>DATABASE</ID>
-                  <OriginalElement>fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.SCHEMA:ga_3.ga_3</OriginalElement>
-                  <nodes>
-                    <node x="349.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.VIEW:ga_3.ga_3.allaccountrecords</node>
-                    <node x="0.0" y="358.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accountrecords</node>
-                    <node x="161.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills</node>
-                    <node x="0.0" y="168.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts</node>
-                    <node x="58.0" y="0.0">fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people</node>
-                  </nodes>
-                  <notes />
-                  <edges>
-                    <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.bills" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people">
-                      <point x="0.0" y="-70.0" />
-                      <point x="232.5" y="143.0" />
-                      <point x="198.25" y="143.0" />
-                      <point x="46.75" y="59.0" />
-                    </edge>
-                    <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.people">
-                      <point x="0.0" y="-70.0" />
-                      <point x="70.5" y="143.0" />
-                      <point x="104.75" y="143.0" />
-                      <point x="-46.75" y="59.0" />
-                    </edge>
-                    <edge source="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accountrecords" target="fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.TABLE:ga_3.ga_3.accounts">
-                      <point x="0.0" y="-81.0" />
-                      <point x="0.0" y="70.0" />
-                    </edge>
-                  </edges>
-                  <settings layout="Hierarchic Group" zoom="1.0" x="141.5" y="260.0" />
-                  <SelectedNodes />
-                  <Categories>
-                    <Category>Key columns</Category>
-                    <Category>Columns</Category>
-                  </Categories>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -169,15 +100,17 @@
         <option value="$PROJECT_DIR$/Group_Assignment/GA_2/GA_1.sql" />
         <option value="$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_5/DW_5.sql" />
         <option value="$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql" />
-        <option value="$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_6/DW_6.sql" />
         <option value="$PROJECT_DIR$/Group_Assignment/GA_2/1111.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb/console.sql" />
+        <option value="$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_6/DW_6.sql" />
         <option value="$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql" />
+        <option value="$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_8/DW_8.sql" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="915" />
+    <option name="y" value="85" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -186,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,26 +158,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DBE.Init.BalloonShown" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="GoToClass.toSaveIncludeLibraries" value="true" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="grid.search.filter.rows" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="database.main2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\DWS\DW_10" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\Group_Assignment\GA_1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\DWS" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\DW_1" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\Group_Assignment\GA_1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,23 +195,22 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="915" y="85" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5021008" side_tool="true" weight="0.23691276" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49789914" weight="0.24835886" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49789914" visible="true" weight="0.26586434" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="5" sideWeight="0.4989059" visible="true" weight="0.38136512" />
+      <window_info anchor="bottom" id="Database Console" order="5" sideWeight="0.4989059" weight="0.38136512" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010941" side_tool="true" weight="0.33369803" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32936078" />
       <window_info anchor="right" id="Structure" order="0" sideWeight="0.5030488" side_tool="true" weight="0.14925373" />
-      <window_info anchor="right" content_ui="combo" id="Database" order="1" sideWeight="0.49695122" visible="true" weight="0.16257995" />
+      <window_info anchor="right" content_ui="combo" id="Database" order="1" sideWeight="0.49695122" weight="0.16257995" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -585,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_6/DW_6.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="41" selection-start-line="41" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/GA_2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
@@ -599,13 +525,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/1111.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="96" column="16" lean-forward="true" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_2/1111.sql" />
     <entry file="uml://DATABASE/fe8184f6-1dc8-46ca-ae54-6a20b41ecfcb.SCHEMA:ga_3.ga_3">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -637,12 +557,13 @@
               <point x="0.0" y="70.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="141.5" y="260.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="103.0" y="436.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -653,12 +574,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql">
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_6/DW_6.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="274" column="41" selection-start-line="274" selection-start-column="41" selection-end-line="274" selection-end-column="41" />
+        <state relative-caret-position="414">
+          <caret line="131" column="19" lean-forward="true" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="206" column="75" selection-start-line="206" selection-start-column="75" selection-end-line="206" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_8/DW_8.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_10/CHECKFD.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
