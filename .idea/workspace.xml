@@ -22,48 +22,54 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
+        <item name="GA_5" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
+        <item name="GA_5" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
+        <item name="GA_5" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ga_3: database" type="162271b6:PgImplModel$Database" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
+        <item name="GA_5" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ga_3: database" type="162271b6:PgImplModel$Database" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="GA_3_Database" type="feb32156:DbDataSourceImpl" />
+        <item name="GA_5" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ga_3: database" type="162271b6:PgImplModel$Database" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ga_3: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="ga_5_schema: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="GA_5" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="extensions" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
   </component>
   <component name="ExecutionTargetDialog">
     <checked>
-      <node key="f621559a-c267-4972-a070-27d52be34275">
-        <node key="pa">
-          <node key="public" />
+      <node key="10f4602f-74e7-4247-b888-25049037c197">
+        <node key="postgres">
+          <node key="ga_5_schema" />
         </node>
       </node>
     </checked>
     <expanded>
-      <node key="f621559a-c267-4972-a070-27d52be34275">
-        <node key="pa" />
+      <node key="10f4602f-74e7-4247-b888-25049037c197">
         <node key="postgres" />
       </node>
     </expanded>
@@ -72,7 +78,112 @@
     <favorites_list name="SC-T-202-GAG1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/10f4602f-74e7-4247-b888-25049037c197.SCHEMA:postgres.ga_5_schema">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>10f4602f-74e7-4247-b888-25049037c197.SCHEMA:postgres.ga_5_schema</OriginalElement>
+              <nodes>
+                <node x="455.0" y="146.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_cid</node>
+                <node x="266.0" y="535.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_mid</node>
+                <node x="305.0" y="146.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid</node>
+                <node x="0.0" y="124.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_hid_hs_hz</node>
+                <node x="471.0" y="411.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.customers_cc_cz</node>
+                <node x="123.0" y="659.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_pid_sid</node>
+                <node x="1463.8107798165138" y="428.6261467889908">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals</node>
+                <node x="7.5" y="0.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_hz_hc</node>
+                <node x="69.25" y="270.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_pid_hid_s</node>
+                <node x="298.0" y="0.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_dn_ds</node>
+                <node x="1115.505733944954" y="422.50229357798173">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees</node>
+                <node x="143.0" y="135.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_pid_pn</node>
+                <node x="369.25" y="269.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid_cid</node>
+                <node x="430.0" y="535.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.customers_cid_cn_cs_cnr_cc_eid</node>
+                <node x="1307.8107798165138" y="428.6261467889908">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.customers</node>
+                <node x="0.0" y="535.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_sid_sn</node>
+                <node x="131.0" y="535.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_pid_pn</node>
+                <node x="262.0" y="411.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_mid_mn</node>
+                <node x="956.5057339449542" y="422.50229357798173">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects</node>
+                <node x="446.0" y="0.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_cid_cn_cm</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_pid_sid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_sid_sn">
+                  <point x="-43.66666666666666" y="-47.5" />
+                  <point x="144.83333333333334" y="634.0" />
+                  <point x="55.5" y="634.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_mid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_mid_mn">
+                  <point x="0.0" y="-37.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_pid_sid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_mid">
+                  <point x="43.66666666666666" y="-47.5" />
+                  <point x="232.16666666666666" y="634.0" />
+                  <point x="323.5" y="634.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid_cid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_cid">
+                  <point x="33.75" y="-47.5" />
+                  <point x="470.5" y="244.0" />
+                  <point x="511.5" y="244.0" />
+                  <point x="0.0" y="36.5" />
+                </edge>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_pid_sid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_pid_pn">
+                  <point x="0.0" y="-47.5" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_cid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_cid_cn_cm">
+                  <point x="0.0" y="-36.5" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_pid_hid_s" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_hid_hs_hz">
+                  <point x="-30.25" y="-48.0" />
+                  <point x="99.5" y="245.0" />
+                  <point x="61.5" y="245.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_hid_hs_hz" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_hz_hc">
+                  <point x="0.0" y="-48.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid_cid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid">
+                  <point x="-33.75" y="-47.5" />
+                  <point x="403.0" y="244.0" />
+                  <point x="362.0" y="244.0" />
+                  <point x="0.0" y="36.5" />
+                </edge>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_pid_hid_s" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_pid_pn">
+                  <point x="30.25" y="-48.0" />
+                  <point x="160.0" y="245.0" />
+                  <point x="198.0" y="245.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.customers_cid_cn_cs_cnr_cc_eid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.customers_cc_cz">
+                  <point x="0.0" y="-81.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_dn_ds">
+                  <point x="0.0" y="-36.5" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9693918245264207" x="627.0411924057871" y="385.7153634953045" />
+              <SelectedNodes>
+                <node>10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects</node>
+                <node>10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -105,12 +216,16 @@
         <option value="$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_6/DW_6.sql" />
         <option value="$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql" />
         <option value="$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_8/DW_8.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/datagrip64.exe.vmoptions" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/10f4602f-74e7-4247-b888-25049037c197/console.sql" />
+        <option value="$PROJECT_DIR$/Group_Assignment/GA_5/GA_5.sql" />
+        <option value="$PROJECT_DIR$/Group_Assignment/GA_5/POPULATE.sql" />
+        <option value="$PROJECT_DIR$/Group_Assignment/GA_5/DECOMPOSE.sql" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="915" />
-    <option name="y" value="85" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -129,30 +244,13 @@
             <path>
               <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
               <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
-              <item name="Dæmatímaverkefni" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
-              <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
-              <item name="Dæmatímaverkefni" type="462c0819:PsiDirectoryNode" />
-              <item name="DWS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
-              <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
               <item name="Group_Assignment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
               <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
               <item name="Group_Assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="GA_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-202-GAG1" type="8cb6161f:DatabaseProjectViewPane$1$1" />
-              <item name="SC-T-202-GAG1" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
-              <item name="Group_Assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="GA_3" type="462c0819:PsiDirectoryNode" />
+              <item name="GA_5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,21 +263,21 @@
     <property name="DBE.Init.BalloonShown" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="GoToClass.toSaveIncludeLibraries" value="true" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="grid.search.filter.rows" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="database.main2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\DWS\DW_10" />
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\Group_Assignment\GA_1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\DWS" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\DW_1" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\DWS\DW_10" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-202-GAG1\Dæmatímaverkefni\Group_Assignment\GA_1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -195,22 +293,22 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="915" y="85" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5021008" side_tool="true" weight="0.23691276" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49789914" visible="true" weight="0.26586434" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49789914" visible="true" weight="0.116204694" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info anchor="bottom" id="Database Console" order="5" sideWeight="0.4989059" weight="0.38136512" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="5" sideWeight="0.4989059" visible="true" weight="0.24617068" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010941" side_tool="true" weight="0.33369803" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32936078" />
       <window_info anchor="right" id="Structure" order="0" sideWeight="0.5030488" side_tool="true" weight="0.14925373" />
-      <window_info anchor="right" content_ui="combo" id="Database" order="1" sideWeight="0.49695122" weight="0.16257995" />
+      <window_info anchor="right" content_ui="combo" id="Database" order="1" sideWeight="0.49695122" weight="0.1748401" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -581,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="206" column="75" selection-start-line="206" selection-start-column="75" selection-end-line="206" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_8/DW_8.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -595,8 +686,208 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cceadbba-300d-4641-9fe9-dc86bddea3ec/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_5/FILL-hop5-1.sql" />
+    <entry file="das://10f4602f-74e7-4247-b888-25049037c197/database/postgres/schema/ga_5_schema/table/customers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_10/CHECKFD.sql">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dæmatímaverkefni/DWS/DW_10/DW10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/datagrip64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_3/GA_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="206" column="75" selection-start-line="206" selection-start-column="75" selection-end-line="206" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/10f4602f-74e7-4247-b888-25049037c197/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6426">
+          <caret line="378" column="4" selection-start-line="378" selection-start-column="4" selection-end-line="378" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../HR/Önn_2/SC-T-202-GAG1/DW/P5-old/P5-old/SQL-Project/CREATE.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/DECOMPOSE.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/FILL-hop5-1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="50" lean-forward="true" selection-end-line="72946" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://10f4602f-74e7-4247-b888-25049037c197/database/postgres/schema/ga_5_schema/table/projects">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://10f4602f-74e7-4247-b888-25049037c197/database/postgres/schema/ga_5_schema/table/rentals">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://10f4602f-74e7-4247-b888-25049037c197/database/postgres/schema/ga_5_schema/table/coffees">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../HR/Önn_2/SC-T-202-GAG1/DW/P5-old/P5-old/SQL-Solution/CREATE.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-760">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_5/DECOMPOSE.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1448">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Group_Assignment/GA_5/POPULATE.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/10f4602f-74e7-4247-b888-25049037c197.SCHEMA:postgres.ga_5_schema">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>10f4602f-74e7-4247-b888-25049037c197.SCHEMA:postgres.ga_5_schema</OriginalElement>
+          <nodes>
+            <node x="455.0" y="146.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_cid</node>
+            <node x="266.0" y="535.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_mid</node>
+            <node x="305.0" y="146.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid</node>
+            <node x="0.0" y="124.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_hid_hs_hz</node>
+            <node x="471.0" y="411.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.customers_cc_cz</node>
+            <node x="123.0" y="659.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_pid_sid</node>
+            <node x="1463.8107798165138" y="428.6261467889908">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals</node>
+            <node x="7.5" y="0.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_hz_hc</node>
+            <node x="69.25" y="270.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_pid_hid_s</node>
+            <node x="298.0" y="0.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_dn_ds</node>
+            <node x="1115.505733944954" y="422.50229357798173">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees</node>
+            <node x="143.0" y="135.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_pid_pn</node>
+            <node x="369.25" y="269.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid_cid</node>
+            <node x="430.0" y="535.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.customers_cid_cn_cs_cnr_cc_eid</node>
+            <node x="1307.8107798165138" y="428.6261467889908">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.customers</node>
+            <node x="0.0" y="535.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_sid_sn</node>
+            <node x="131.0" y="535.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_pid_pn</node>
+            <node x="262.0" y="411.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_mid_mn</node>
+            <node x="956.5057339449542" y="422.50229357798173">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects</node>
+            <node x="446.0" y="0.0">10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_cid_cn_cm</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_pid_sid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_sid_sn">
+              <point x="-43.66666666666666" y="-47.5" />
+              <point x="144.83333333333334" y="634.0" />
+              <point x="55.5" y="634.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_mid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_mid_mn">
+              <point x="0.0" y="-37.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_pid_sid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_mid">
+              <point x="43.66666666666666" y="-47.5" />
+              <point x="232.16666666666666" y="634.0" />
+              <point x="323.5" y="634.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid_cid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_cid">
+              <point x="33.75" y="-47.5" />
+              <point x="470.5" y="244.0" />
+              <point x="511.5" y="244.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_id_pid_sid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects_pid_pn">
+              <point x="0.0" y="-47.5" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_cid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_cid_cn_cm">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_pid_hid_s" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_hid_hs_hz">
+              <point x="-30.25" y="-48.0" />
+              <point x="99.5" y="245.0" />
+              <point x="61.5" y="245.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_hid_hs_hz" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_hz_hc">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid_cid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid">
+              <point x="-33.75" y="-47.5" />
+              <point x="403.0" y="244.0" />
+              <point x="362.0" y="244.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_pid_hid_s" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.rentals_pid_pn">
+              <point x="30.25" y="-48.0" />
+              <point x="160.0" y="245.0" />
+              <point x="198.0" y="245.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.customers_cid_cn_cs_cnr_cc_eid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.customers_cc_cz">
+              <point x="0.0" y="-81.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_hid" target="10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees_did_dn_ds">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9693918245264207" x="627.0411924057871" y="385.7153634953045" />
+          <SelectedNodes>
+            <node>10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.projects</node>
+            <node>10f4602f-74e7-4247-b888-25049037c197.TABLE:postgres.ga_5_schema.coffees</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
